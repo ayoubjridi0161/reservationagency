@@ -12,7 +12,9 @@ export default {
       },
       fontFamily: {
         'lalezar': ['Lalezar', 'cursive'],
-        'gurajada': ['Gurajada', 'serif']
+        'gurajada': ['Gurajada', 'serif'],
+        'halant': ['Halant', 'serif']
+      
       }
 
     },
