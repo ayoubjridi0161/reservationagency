@@ -1,9 +1,19 @@
 import React from 'react'
+import { HeaderSearchBar } from './HeaderSearchBar'
 
+import { Link } from 'react-router-dom'
 const Header  = ()  => {
   return (
-    <header className='fixed h-11 bg-stone-700 w-screen '>
-        
+    <header className='h-[105px] px-10 items-center flex justify-between fixed  bg-stone-700 w-screen '>
+        <div className='bg-blue flex gap-8'>
+        <h1 className='text-[#78E4FB]  font-hurricane text-6xl '>WeTravel</h1>
+        <HeaderSearchBar />
+        </div>
+        <div className='flex text-[22px]'>  
+        <Link className='px-4 hover:underline text-white border-white border-r' >Home </Link>
+        <Link className='px-4 hover:underline text-white ' >Hotels </Link>
+        <Link className='px-4 hover:underline text-white border-l border-white' >About Us </Link>
+        </div>
     </header>
     )
 }
