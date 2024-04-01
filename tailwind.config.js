@@ -17,6 +17,7 @@ export default {
         'halant': ['Halant', 'serif'],
         'hurricane': ['Hurricane', 'serif'],
         'kota': ['Kota One', 'cursive'],
+        'lato' : ['Lato', 'sans-serif'],
       },
 
     },

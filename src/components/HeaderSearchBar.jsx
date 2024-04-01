@@ -10,7 +10,7 @@ export const HeaderSearchBar = () => {
     const SubmitSearch = (event) => {
         event.preventDefault()
       console.log(query)
-      navigate(`/hotels/?keyword=${query}`)      
+      navigate(`/hotels/search/${query}`)      
     }
     console.log(query)
   return (

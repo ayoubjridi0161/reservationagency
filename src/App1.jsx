@@ -4,6 +4,8 @@ import Home from './Pages/Home';
 //import SearchResult from './Pages/SearchResult';
 //import HotelBox from './components/HotelBox';
 import SearchResult from './Pages/SearchResult';
+import { QueryClient, QueryClientProvider} from 'react-query'
+
 import { HotelsPage } from './Pages/HotelsPage';
 import {
     createBrowserRouter,
@@ -25,7 +27,7 @@ const router = createBrowserRouter([
         element: <Layout />,
         children : [
             {
-                path : "/hotels/?keyword=:keyword",
+                path : "/hotels/search/:keyword",
                 element : <SearchResult />
             },
             {
@@ -35,7 +37,7 @@ const router = createBrowserRouter([
 
             },
             {
-                path : "hotels/?id=:hotelID",
+                path : "hotels/:id",
                 element : <HotelDetails/>
             }
 
@@ -45,9 +47,12 @@ const router = createBrowserRouter([
     }
 ]);
 const App = () => {
+    const queryClient = new QueryClient();
   
     return (
+        <QueryClientProvider client={queryClient}>
         <RouterProvider router ={router}/>
+        </QueryClientProvider>
   );
 };
 
