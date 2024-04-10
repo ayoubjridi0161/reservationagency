@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { IoIosStar } from "react-icons/io";
 import { HotelBox } from '../components/HotelBoxV2';
 import Chip from '@mui/joy/Chip';
@@ -26,11 +26,12 @@ export const HotelDetails = () => {
     const {isLoading , error , data} = useQuery('hotelDetails',async () => await getHotelDetails(id));
     
 
-    function RenderImages(images){
+    function RenderImages({images}){
+        const [b, setB] = useState(images[0])
 
         return(
             <div className='w-1/2 p-4 gap-4  items-center h-[530px]  justify-center grid grid-cols-3 grid-rows-4 border-b border-x-zinc-700 '>
-                <img src={images[0]} className="border-b-2 border-black w-full h-full self-start border rounded-lg col-span-3 row-span-3" alt="razebbi" />
+                <img src={b} className="border-b-2 border-black w-full h-full self-start border rounded-lg col-span-3 row-span-3" alt="razebbi" />
                 <img  onClick={()=>{setB(images[0])} } className='hover:border-amber-700 hover:border-2 rounded-xl hover:scale-110 ease-in duration-300  w-full h-full '  src={images[0]} alt="" />
                 <img  onClick={()=>{setB(images[1])} } className='hover:border-amber-700 hover:border-2 rounded-xl hover:scale-110 ease-in duration-300 w-full h-full  ' src={images[1]} alt="" />
                 <img  onClick={()=>{setB(images[2])} } className='hover:border-amber-700 hover:border-2 rounded-xl hover:scale-110 ease-in duration-300  w-full h-full  ' src={images[2]} alt="" />
@@ -82,7 +83,7 @@ export const HotelDetails = () => {
         <p className='text-[#4C4C4C] font-halant text-[20px]'>{data.location}</p>
         </div>
         <div className='flex gap-4 '>
-            {RenderImages(data.images)}
+            <RenderImages images={data.images}/>
             <div className='w-1/2 flex flex-col gap-4'> 
             
                 <div className='pt-3'>
@@ -97,7 +98,7 @@ export const HotelDetails = () => {
                 </div>
                 </div>
             
-                <button className='bg-[#00FF57] w-fit place-self-center my-8 drop-shadow-md font-lalezar text-white text-3xl text-nowrap  p-3 border rounded-3xl'>Proceed to payment</button>
+                <Link to="Checkout"  className='bg-[#00FF57] w-fit place-self-center my-8 drop-shadow-md font-lalezar text-white text-3xl text-nowrap  p-3 border rounded-3xl'>Proceed to payment</Link>
             </div>
 
 

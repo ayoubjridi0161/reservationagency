@@ -1,0 +1,224 @@
+{
+  "Data":[
+    {
+      "name": "Hôtel de France",
+      "image": ["https://lh5.googleusercontent.com/p/AF1QipM_0KZtZRpnivqffWjXizuDfoqNqolsLP8WSF8l=w243-h174-n-k-no-nu"],
+      "starRating": 4,
+      "room_availability": true,
+      "location": "Tunis",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description": "Excellent choix pour les voyageurs visitant Tunis, le Grand Hotel de France offre un cadre familial et de nombreux services conçus pour sublimer votre séjour.Les chambres du Grand Hotel de France sont équipées d'une climatisation. Pour encore plus de commodité, elles disposent même d'un internet gratuit.Grâce à son emplacement tout près de Victoria Square (0,1 km), les clients du Grand Hotel de France pourront facilement profiter d'une des attractions les plus célèbres de Tunis."
+    },
+    {
+      "name": "Hôtel El Mouradi",
+      "image": ["https://lh5.googleusercontent.com/p/AF1QipM_0KZtZRpnivqffWjXizuDfoqNqolsLP8WSF8l=w243-h174-n-k-no-nu"],
+      "starRating": 4,
+      "room_availability": true,
+      "location": "Sousse",
+      "services":["BedRooms" , "internet" ,"Restoration" ,"Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description": "The Jaz Tour Khalef is a 5-star hotel located in the heart of the tourist area of Sousse, 150 meters from the beach. It offers a luxurious spa and a swimming pool. The rooms at the Jaz Tour Khalef are air-conditioned and have a balcony. They are equipped with a TV, a minibar and a private bathroom. The Jaz Tour Khalef has 4 restaurants serving international and Tunisian cuisine. The hotel also has 4 bars, including a poolside bar. The Jaz Tour Khalef has a fitness center and a spa with a sauna, a hammam and a hot tub. The hotel also has a tennis court and a children'sclub. The Jaz Tour Khalef is 3 km from the center of Sousse and 15 km from Monastir. Free private parking is available on site."
+    },
+    {
+      "name": "Hôtel Riadh Palms Resort & Spa",
+      "image":"https://lh3.googleusercontent.com/p/AF1QipNX94Kx4Rw8YEwlMcRWFoW7qE_RcG0HdeDsd8t2=s680-w680-h510",
+      "starRating": 4,
+      "room_availability": true,
+      "location": "Sousse",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Le Riadh Palms vous accueille au milieu des palmiers, à proximité de l'une des plus belles plages de Tunisie, dotée du pavillon bleu. Situé dans le centre de Sousse, cet établissement vous propose des hébergements confortables et des équipements modernes. Une connexion Wi-Fi est accessible gratuitement dans l'ensemble de ses locaux. Lors de votre séjour, vous pourrez profiter de plusieurs piscines. La piscine extérieure serpente autour d'une petite île centrale et comprend 3 ponts. L'établissement comporte également un bassin pour enfants et une piscine intérieure chauffée. Vous aurez la possibilité de vous détendre sur une chaise longue à l'ombre d'un parasol. Les chambres et les suites sont confortables et dotées d'équipements modernes. Certaines disposent d'un balcon privé. Le Palms comporte plusieurs bars et restaurants, où vous pourrez savourer des boissons et des plats délicieux. Le spa Serenity vous attend pour vos moments de détente. Proposant des massages, il comprend un sauna et une salle de sport."
+    },
+    {
+      "name": "Hôtel Sousse Palace Hotel & Spa",
+      "image": "https://lh3.googleusercontent.com/proxy/RBv1R4v1n6XGtSMRGAlJsKN3r5sNurFSX3DveR3mMaC3lGmkFX6nHx_ACo5us39pyT3yW4BQPJzGmoDl9ztr8RxXvAZCLZpTMCMxv57F3zsvUipEuQi7oR0Ngp1XWXIv8pn5eAJl2AN-M3FOvT98NS3PVjTvv5E=s680-w680-h510",
+      "starRating": 4,
+      "room_availability": true,
+      "location": "Sousse",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Situé dans le centre de Sousse, à proximité de la médina, le Sousse Palace Hotel & Spa bénéficie d'un accès direct à une plage privée. Il propose des chambres, des suites, des piscines extérieure et intérieure, ainsi qu'un centre de bien-être et une salle de sport. Les chambres du Sousse Palace Hotel & Spa disposent de la climatisation, d’une télévision par satellite, d’un minibar et d’un balcon. Le Sousse Palace Hotel & Spa compte également 2 restaurants, plusieurs bars et un café. Vous pourrez vous détendre sur les terrasses bien exposées. L’élégante station balnéaire de Port El-Kantaoui et des parcours de golf se trouvent à seulement 7 km."
+    },
+    {
+      "name": "Sousse Pearl Marriott Resort & Spa",
+      "image":"https://lh3.googleusercontent.com/proxy/meEmKsMRd8oGT6j4H0cFVUw3a2gwXYc103chLh0n7OsWZbZ5KUNaegsXsEP-kYk1rzyDLPgrfTOuEdsfuq7_a29lCDLqdWDiWiHktBMQWMcH-tRX23eBB3_hQeJHoTUTHpO589r89wfkaoxNl7gIKQeBteiMoQ=s680-w680-h510",
+      "starRating": 5,
+      "room_availability": true,
+      "location": "Sousse",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description": "Situé à Sousse, à 400 mètres de la plage de Bou Jaafar, le Sousse Pearl Marriott Resort & Spa propose des hébergements avec une piscine extérieure, un jardin et un parking privé gratuit. Un service de prêt de vélos est assuré. Cet établissement propose également un restaurant, une terrasse et une piscine intérieure. Le complexe hôtelier présente une réception ouverte 24h/24 ainsi qu’une connexion Wi-Fi gratuitement accessible dans l’ensemble de ses locaux. Il assure aussi une navette aéroport et un service d’étage.  Toutes les chambres disposent de la climatisation, et certains logements possèdent un balcon. Un petit-déjeuner buffet, à la carte ou continental est servi chaque matin. Lors de votre séjour, vous pourrez bénéficier d’un service de repassage ainsi que d’équipements professionnels comme un fax et un photocopieur. La plage de Bhar Ezzebla se trouve à 1,3 km, tandis que celle de Las Vegas est à 2,4 km. L'aéroport international de Monastir-Habib Bourguiba, le plus proche du Sousse Pearl Marriott Resort & Spa, est situé à 15 km. Les couples apprécient particulièrement l'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux. Les distances indiquées dans la description de l'établissement sont calculées avec © OpenStreetMap."
+    },
+    {
+      "name": "Occidental Sousse Marhaba",
+      "image": "https://lh3.googleusercontent.com/proxy/xjCsrxC0w76Pxov0EdnIGvaP1z9vmc5pGk8d79C_dKexCzN6CsaZNrINSGU0ofxK92l_iPenfdhDxDXCF_Ji-rCnA9kDphD2TaNiFSV9sWxBG9rnhvKX5WSu2DmDPS8U5LpTmWk7PgE1oM2pSWaLZoself1vTQ=s680-w680-h510",
+      "starRating": 5,
+      "room_availability": true,
+      "location": "Sousse",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Situé à Sousse, à moins de 1 km de la plage de Las Vegas, l'Occidental Sousse Marhaba propose une piscine extérieure, un parking privé gratuit, un jardin et une terrasse. Il propose un restaurant, un club pour enfants, une réception ouverte 24h/24 et une connexion Wi-Fi gratuite dans l'ensemble de ses locaux. Il propose une piscine intérieure, un karaoké et un service de concierge. Les chambres climatisées comprennent un bureau, un coffre-fort, une télévision à écran plat, un balcon et une salle de bains privative avec baignoire. Le linge de lit et les serviettes sont fournis. Une aire de jeux pour enfants est à votre disposition sur place. Vous pourrez jouer au ping-pong, aux fléchettes et au minigolf sur place. Bou Jaafar se trouve à moins de 1 km de l'Occidental Sousse Marhaba, tandis que la plage de Thalassa Sousse est à 2,3 km. L'aéroport international Habib-Bourguiba de Monastir, le plus proche, est implanté à 16 km."
+    },
+    {
+      "name": "Hôtel Du Parc",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMF4PyDFX5gi-9EEfxTlMMnCpOLdKooK_tv2Il_=s680-w680-h510",
+      "starRating": 4,
+      "room_availability": true,
+      "location": "Tunis",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"L'Hotel du Parc est situé à Tunis, à 2 km du centre-ville et à 10 minutes de l'aéroport international de Tunis-Carthage. Le Park Hotel dispose de 51 chambres et suites bien équipées, climatisées, spacieuses et confortables comprenant une salle de bains privative moderne. L'hôtel dispose de 2 restaurants qui proposent des spécialités tunisiennes et internationales dans une atmosphère conviviale. À proximité de l'hôtel, vous pourrez visiter le célèbre musée Bardo, la médina de Tunis, Carthage et son amphithéâtre, son port et les thermes d'Antonin datant de l'époque punique ainsi que le village bleu et blanc de Sidi Bou Saïd, perché sur une colline. Vous pourrez aussi vous rendre à la plage se trouvant à 18 km"
+    },
+    {
+      "name": "Hôtel St Georges Tunis",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipPARb955hevGdQcBRy0jRwc4OmxMe-fDlBmGzIz=s680-w680-h510",
+      "starRating": 4,
+      "room_availability": true,
+      "location": "Tunis",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"L'hôtel Saint Georges propose des hébergements simples et confortables à proximité de toutes les principales attractions de la capitale animée de Tunis. Les chambres douillettes et fonctionnelles comprennent une salle de bains privative, une table et une armoire. En été, elles sont climatisées. L'hôtel Saint Georges Tunis dispose également d'une salle de petit-déjeuner, d'un salon de télévision et d'une terrasse où vous pourrez vous détendre avec une boisson. Il abrite aussi un restaurant, un bar et des magasins. Pratique pour les personnes visitant la région en voiture, le parking gratuit sur place est surveillé la nuit."
+    },
+    {
+      "name": "Hôtel Afef",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipO5qewx7S3rGAJH3hJ-BVzWuutPCWIZM39pqYy-=s680-w680-h510",
+      "starRating": 3,
+      "room_availability": true,
+      "location": "Tunis",
+      "services":["BedRooms" , "internet" ,"Restoration" ,"Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Situé à Tunis, à moins de 16 km du musée archéologique de Salammbo Tophet, l'Hotel Afef propose un service de concierge, des chambres non-fumeurs, un salon commun, une connexion Wi-Fi gratuite dans l'ensemble de ses locaux et une terrasse. Il se trouve à proximité du Dar Bach Hamba, de la mosquée Sidi Mahrez et du musée Dar Lasram. Vous profiterez d'une cuisine commune, ainsi que de services d'étage et de change. Le personnel de la réception ouverte 24h/24 parle français et anglais. Vous séjournerez à proximité de la porte de France Bab El Bhar, de la place de la Victoire et de la cathédrale Saint-Vincent-de-Paul. L'aéroport de Tunis-Carthage, le plus proche, est implanté à 10 km."
+    },
+    {
+      "name": "Ramada Plaza by Wyndham Tunis",
+      "image":"https://lh3.googleusercontent.com/p/AF1QipN8AxKPE6C6-8MuBHK48bNtxM2PdxMJK5EOUFiM=s680-w680-h510",
+      "starRating": 5,
+      "room_availability": true,
+      "location": "Tunis",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description": "The Jaz Tour Khalef is a 5-star hotel located in the heart of the tourist area of Sousse, 150 meters from the beach. It offers a luxurious spa and a swimming pool. The rooms at the Jaz Tour Khalef are air-conditioned and have a balcony. They are equipped with a TV, a minibar and a private bathroom. The Jaz Tour Khalef has 4 restaurants serving international and Tunisian cuisine. The hotel also has 4 bars, including a poolside bar. The Jaz Tour Khalef has a fitness center and a spa with a sauna, a hammam and a hot tub. The hotel also has a tennis court and a children'sclub. The Jaz Tour Khalef is 3 km from the center of Sousse and 15 km from Monastir. Free private parking is available on site."
+    },
+    {
+      "name": "Hasdrubal Prestige Thalassa & Spa Djerba",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipMpfgUDx4RWgQzi0gNklpxPWvy4tkvtraw2X1-a=s680-w680-h510",
+      "starRating": 5,
+      "room_availability": true,
+      "location": "Djerba",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Along the shore of the Mediterranean Sea, this elegant all-suite hotel is 19 km from the Djerbahood and 5 km from Djerba Golf Club. Polished suites feature free Wi-Fi, flat screen TVs and minibars, plus safes, living areas and balconies. All offer sea, pool or garden views. Room service is available. Breakfast, a golf course shuttle and parking are free. Amenities include 5 restaurants, 3 bars and indoor saltwater pools, as well as a Moorish café. There's also a fitness center, an outdoor pool and 2 tennis courts, plus a private beach. A spa with a sauna, 2 hammams and massage services is available."
+    },
+    {
+      "name": "Djerba Holiday Club Hôtel Dar el Manara",
+      "image":"https://lh3.googleusercontent.com/p/AF1QipMDZTHYYTMTZy-n3e6W3JvPFPX7T7dUHnwstqss=s680-w680-h510",
+      "starRating": 3,
+      "room_availability": true,
+      "location": "Djerba",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Le Dar El Manara Djerba Hotel & Aparts se trouve à proximité des plages de Meridiana, de Seabel Rym et du musée Lalla Hadria.le Dar El Manara Djerba Hotel & Aparts propose une piscine extérieure, un parking privé gratuit, un jardin et un salon commun. Il propose un restaurant, un club pour enfants, un service d'étage et une connexion Wi-Fi gratuite. L'établissement possède une discothèque et une bagagerie. Certaines chambres comprennent une kitchenette équipée d'un réfrigérateur et de plaques de cuisson. Un petit-déjeuner buffet, continental et italien est servi chaque matin. L'hôtel possède une terrasse. Vous pourrez jouer aux fléchettes et au minigolf sur place. Le personnel de la réception ouverte 24h/24 parle arabe, allemand, anglais et français."
+    },
+    {
+      "name": "Hôtel Seabel Rym Beach Djerba",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/9776205.jpg?k=70cc4bbac62d2978f27a0c1a1c62c14b8157d55f65cc944f29ed426d4612bcfe&o=&hp=1",
+      "starRating": 4.5,
+      "room_availability": true,
+      "location": "Djerba",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"L'hôtel tout compris Seabel Rym Beach est situé au pied du phare de Taguermess. Il dispose d'une plage privée, d'une piscine, d'un petit bassin et de chambres offrant une vue panoramique. Chacune des chambres climatisées du Seabel est dotée d'une salle de bains privative, d'une loggia ou d'un balcon et de la télévision par satellite. Le spa du Seabel propose une large gamme de soins du corps, du visage et de beauté. L'établissement possède plusieurs restaurants, dont un grand qui donne sur la piscine, un grill en bord de piscine, une pizzeria et un bar à tapas. Un café-terrasse est également disponible. Le Seabel Rym Beach dispose d'un club pour enfants de 3 à 12 ans. Une connexion Wi-Fi est disponible dans les parties communes."
+    },
+    {
+      "name": "Hôtel Amir Palace",
+      "image": "https://lh5.googleusercontent.com/proxy/_OGjcEQgozBGmKeaEjDFy1IHlRWnOI7cD4ZrpggW_LcpN7D-kqnA_JuSgrvSpft4DO3Yruoa10axkLRhRDWSgXWyl4EB6nGBEXLKeypBC1ihqBLsnqPT5bw1jLJArqKf08l_34QT7o5XtwalhPCUD_w5i_nYkw=w160-h120-k-no",
+      "starRating": 3.5,
+      "room_availability": true,
+      "location": "Monastir",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Situé sur une plage privée surplombant le golfe d'Hammamet, ce grand hôtel tout compris se trouve à 9 km du parc d'attractions Spring Land et à 12 km du musée archéologique de Sousse. Les chambres élégantes dotées de grandes baies vitrées sont équipées de la télévision par câble, d'un minibar, d'un coffre-fort, ainsi que d'un balcon avec vue sur la mer, la piscine ou le jardin. Les suites ajoutent un coin salon séparé. Le petit-déjeuner, le déjeuner et le dîner sont servis dans un restaurant de style buffet. L'établissement possède également un restaurant convivial, un café maure, un café et plusieurs bars. L'établissement comprend également des piscines intérieure et extérieure, des courts de tennis, un club pour enfants, un spa, une salle de sport et une discothèque."
+    },
+    {
+      "name": "Hôtel Palm Djerba",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipMPO9ggSCP_XGiw_PoMIG0V4n65Oe7BxYWRNXJh=w243-h174-n-k-no-nu",
+      "starRating": 4.5,
+      "room_availability": true,
+      "location": "Djerba",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Situé à Mezraya, à moins de 1 km de la plage, le Palm Djerba Suites propose une piscine extérieure, un parking privé gratuit, un jardin et une terrasse. Il se trouve à environ 2,9 km de la plage de Sidi Mahrez, à 4,9 km du club de golf de Djerba et à 7,9 km du musée Lalla Hadria. Il propose une réception ouverte 24h/24, des transferts aéroport, un service d'étage et une connexion Wi-Fi gratuite dans l'ensemble de ses locaux.  Certaines chambres comprennent une kitchenette avec un four micro-ondes, un minibar et des plaques de cuisson. Le restaurant du complexe sert une cuisine méditerranéenne. Une option halal peut également être demandée. Le parc Djerba Explore se trouve à 7,9 km du Palm Djerba Suites, tout comme la ferme aux crocodiles. L'aéroport international de Djerba-Zarzis, le plus proche, est implanté à 20 km."
+    },
+    {
+      "name": "Hôtel Rosa Beach Thalasso and Spa",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNabAqFBr6hGP_KoKyqykljHt5-ZdXH60R-BcUK=s680-w680-h510",
+      "starRating": 3.5,
+      "room_availability": true,
+      "location": "Monastir",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Situé sur une plage de sable le long du golfe d'Hammamet, cet hôtel de style décontracté se trouve à 2 km de l'aéroport international de Monastir Habib Bourguiba et à 18 km de la médina de Sousse, datant du IXe siècle. Les chambres sobres disposent d'une télévision à écran plat, d'un coffre-fort et d'un mini-frigo, ainsi que d'un balcon ou d'une terrasse avec vue sur le golfe ou le jardin. Le service en chambre est disponible 24h/24 et 7j/7. Un petit-déjeuner buffet est gratuit. L'établissement possède 4 restaurants, dont un buffet proposant des soirées à thème, ainsi que 3 bars et un café. L'établissement possède également des piscines chauffées extérieure et intérieure, ainsi qu'une salle de sport, un sauna et un bain à remous. L'établissement comprend également des installations sportives, un club pour enfants et un espace de plage privé avec des chaises longues ombragées."
+    },
+    {
+      "name": "Hôtel Regency",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFhbJz2ztrBWeT5ku4TwOPGg0kNVMRUhEGU0rwVFeBfw&s",
+      "starRating": 4,
+      "room_availability": true,
+      "location": "Monastir",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons": ["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Le Regency Hotel and Spa est situé à Monastir, à 5 minutes à pied du centre-ville. Donnant sur la plage, il dispose de piscines intérieures et extérieures, d'un centre de balnéothérapie ainsi que d'une terrasse bien exposée. Le Regency Hotel and Spa allie un style moderne et des éléments traditionnels tunisiens. Chaque chambre spacieuse est pourvue d'une salle de bains privative et comprend une télévision par satellite, un minibar ainsi qu'un balcon. Le petit-déjeuner est servi tous les jours. Le restaurant propose des plats locaux et internationaux que vous pourrez savourer dans le coin repas ou sur la terrasse. Pendant votre séjour, vous pourrez vous détendre dans le salon décoré dans un style tunisien traditionnel. La réception de l'hôtel pourra vous organiser de nombreuses excursions. La connexion Wi-Fi est gratuite dans tout l'établissement."
+    },
+    {
+      "name": "Hôtel Iberostar Selection Kuriat Palace",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipM9v8lvz5FCSzuSgvpYx0XSM1Vnm0HXqwVd7MWB=s680-w680-h510",
+      "starRating": 4,
+      "room_availability": true,
+      "location": "Monastir",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Bienvenue à l'Iberostar Selection Kuriat Palace à Monastir, en Tunisie, où le confort rencontre l'excellence. Notre merveilleux hôtel 5 étoiles favorise une expérience unique enrichie par l'élégance classique. Retrouvez sérénité et simplicité dans nos chambres et suites confortables, convenablement meublées, faites sur mesure pour vous. Savourez les délicieux plats de notre buffet et de notre restaurant tunisien traditionnel et participez à des activités animées, notamment le programme complet Star Camp pour les jeunes. Détendez-vous dans le jacuzzi et le hammam du spa et profitez de vos vacances dans nos deux piscines extérieures."
+    },
+    {
+      "name": "Hôtel Jaz Tour Khalef",
+      "image":"https://lh3.googleusercontent.com/p/AF1QipODLb067KC1dTP_zHwcU8dc_vgjDdNUXh6IZSem=s680-w680-h510",
+      "starRating": 4,
+      "room_availability": true,
+      "location": "Sousse",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"Le Tour Khalef Marhaba possède un grand choix de restaurants. L’Étoile sert une cuisine gastronomique internationale et tunisienne, le Haroun est un snack-bar situé au bord de la piscine. Le Beach Barbecue sert des spécialités cuites au grill. Sur place, vous trouverez également plusieurs bars et un salon de thé traditionnel, le Moorish Café. Le restaurant Oliveraie, faisant face à la magnifique palmeraie, vous accueille, que ce soit à l'intérieur ou à l'extérieur. Il sert des plats allégés et peu caloriques."
+    },
+    {
+      "name": "Hôtel Mövenpick",
+      "image": "https://1915023314.rsc.cdn77.org/photos/17041/voyages2000-movenpickresortsousse7.jpg",
+      "starRating": 5,
+      "room_availability": true,
+      "location": "Sousse",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description":"On the horizon of Tunisia’s liveliest town lies the Mövenpick Resort & Marine Spa Sousse. Stretched out along a sparkling beachfront, this exquisite getaway offers all you expect from a perfect holiday experience."
+    },
+    {
+      "name": "Hôtel Méridien Tunis",
+      "image": "https://lh5.googleusercontent.com/p/AF1QipM_0KZtZRpnivqffWjXizuDfoqNqolsLP8WSF8l=w243-h174-n-k-no-nu",
+      "starRating": 3,
+      "room_availability": true,
+      "location": "Tunis",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description": "Cet hôtel 5 étoiles très central puisqu'il se situe en bas de l'avenue Bourguiba, domine le paysage urbain de Tunis du haut de ses 25 étages qui offrent de belles vues. La décoration est classique, de même que les prestations fournies, parmi lesquelles on regrettera le manque d'infrastructures de détente et de loisirs."
+    },
+    {
+      "name": "Hôtel Carlton",
+      "image": "https://www.hotelcarltontunis.com/backend/homepage/section1/image1_65f8122698d27.webp",
+      "starRating": 3,
+      "room_availability": true,
+      "location": "Tunis",
+      "services":["BedRooms" , "internet" ,"Restoration" , "SwimmingPools","Activities & entertainment"],
+      "servicesIcons":["https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/bed-256.png","https://cdn1.iconfinder.com/data/icons/essentials-pack/96/wifi_wireless_internet_network_signal-64.png,","https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/restaurant-sharp-64.png","https://cdn2.iconfinder.com/data/icons/rental-icon/240/swiming-pool-indoor-64.png","https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__gym_sport_activities_dumbbell-64.png"],
+      "description": "L’Hôtel Carlton est un joyau au cœur de l’avenue Habib Bourguiba, le cœur battant de Tunis. Notre emplacement est exceptionnel, au croisement de l’histoire et de la modernité. Que vous soyez ici pour affaires ou pour loisirs, vous êtes au centre de tout. Nos chambres sont confortables et élégantes, et notre équipe est dévouée à votre satisfaction. L’Hôtel Carlton, c’est le charme de l’histoire et le luxe contemporain, pour un séjour inoubliable à Tunis."
+    }
+  ]
+}

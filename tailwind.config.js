@@ -7,6 +7,13 @@ export default {
   ],
   theme: {
     extend: {
+      dropShadow :{
+        xl : '3px 5px 4px rgba(38, 38, 38, 0.58)'
+
+      },
+      shadow: {
+        xl5: '13px 9px 58px #525151'
+      },
       backgroundImage: {
         'hero-pattern': "url('/assets/426244962_1448528972364125_962454034354804131_n.jpg')",
         'footer-texture': "url('/img/footer-texture.png')",

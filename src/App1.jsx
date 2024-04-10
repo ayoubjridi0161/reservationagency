@@ -12,7 +12,9 @@ import {
     RouterProvider,
   } from "react-router-dom";
 import { HotelDetails } from './Pages/HotelDetails';
+import Checkout from './Pages/Checkout';
 import HotelContainer from './components/HotelContainer';
+import Pay from './Pages/Pay';
 const router = createBrowserRouter([
     {
         path: '/hotels/prototype',
@@ -26,19 +28,32 @@ const router = createBrowserRouter([
         path: "/",
         element: <Layout />,
         children : [
+           
             {
-                path : "/hotels/search/:keyword",
+                path : "hotels/search/:keyword",
                 element : <SearchResult />
             },
             {
                 path : "hotels",
-                element : <HotelsPage />,
+                element : <HotelsPage />
+                
 
 
             },
             {
-                path : "hotels/:id",
-                element : <HotelDetails/>
+                path : "hotels/:id/checkout",
+                element : <Pay />
+            }
+            ,
+            {
+                path : "hotels/:id/",
+                element : <HotelDetails/>,
+                children: [
+                    {
+                        path: "Checkout",
+                        element: <Pay />
+                    }
+                ]
             }
 
             
