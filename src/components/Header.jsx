@@ -8,7 +8,7 @@ const Header  = ()  => {
   console.log('current path',location)
   return (
     
-    <header className='h-[105px] z-20 px-10 items-center flex justify-between fixed bg-opacity-95  bg-stone-700 w-screen '>
+    <header className='h-[105px] z-20 px-10 items-center flex justify-between fixed bg-opacity-95 backdrop-blur-sm  bg-stone-700 w-screen '>
         <div className='bg-blue flex gap-8'>
         <h1 className='text-[#78E4FB]  font-hurricane text-6xl '>WeTravel</h1>
         {location != '/' &&

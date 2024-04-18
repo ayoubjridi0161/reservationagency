@@ -1,6 +1,29 @@
 import axios from 'axios';
-const apiKey = '4c4fd72ad5mshdcade9086f993bbp18512ejsne80243d49b0f'
+const apiKey = '2963ea130bmsh81396c678bf3c47p10a4d4jsnfb142126f40f'
 const apiSecret = '9T6cjnFfx21pWRQx'
+export const getHotelsTN = async (page, stars = 0) => {
+   try {
+      const response = axios.get("http://localhost:3000/Data");
+      
+    const pages = Math.ceil(response.data.length/9);
+    const hotels = response.data.slice((page-1)*9,page*9).map(hotel => {
+    return {
+        id : hotel.id,
+        name: hotel.name,
+        image: hotel.image,
+        location: hotel.location,
+        stars: hotel.starRating
+    }
+})
+console.log(hotels);
+return {hotels, pages};
+}catch(err){
+    console.error(err);
+}
+}
+
+
+
 export const gethotels = async (page , stars = 0)=>{
 
     const options = {

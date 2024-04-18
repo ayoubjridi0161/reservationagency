@@ -1,16 +1,18 @@
 import Pagination from '@mui/material/Pagination';
 import React, { useEffect } from 'react'
 import { useState, Suspense } from 'react'
-import HotelBox from '../components/HotelBox'
+import EmptyHotels from '../components/EmptyHotels';
 import { IoMdSearch } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { renderStars } from '../utils/renderStarts';
 import { Link } from 'react-router-dom';
 import { FaChevronCircleRight } from "react-icons/fa";
 import { gethotels } from '../utils/apifolder2';
+import HotelPageBox from '../components/HotelPageBox';
 import Loader from '../utils/Loader';
 export const HotelsPage = () => {
   const [hotels, setHotels] = useState([]);
+  // const HotelPageBox = React.lazy(() => import('../components/HotelPageBox'));
 /*const hotels = [
   {
   "name": "JAZ Tour KHALEF",
@@ -58,20 +60,7 @@ export const HotelsPage = () => {
     )
   }*/
   const [filterByStars, setFilterByStars] = useState(0);
-  const HotelBox = ({image,name,stars,location,id}) => {
-  return (
-    <Link to={`/hotels/${id}`}  className='w-[30%] h-80 border border-[#919191] drop-shadow-md rounded-3xl'>
-      <img src={image} alt="hotel" style={{ }}   className='  w-full h-2/3 border rounded-t-3xl'/>
-      <div className='px-3 py-1 flex flex-col gap-2'>
-      <h3 className=" w-fit  text-center text-black text-base font-normal font-['Hanuman'] underline " style={{
-textShadow: "3px 5px 4px rgba(38, 38, 38, 0.58)"}}>{name}</h3>
-      <p className='flex'>{renderStars(stars)}</p>
-      <p className='flex items-center'><IoLocationOutline /> <span>{location}</span></p>
-    
-      </div>
-      </Link>
-  )
-  }
+  
   const [maxPages, setMaxPages] = useState(1);
   //get the number of pages
   useEffect(() => {
@@ -107,6 +96,7 @@ textShadow: "3px 5px 4px rgba(38, 38, 38, 0.58)"}}>{name}</h3>
   }
 
   return (
+    <Suspense fallback={<Loader />}>
     <main className='flex pt-[105px] '>
       <aside className=' px-7 w-[38%] gap-4 bg-[#555555] flex flex-col items-center pt-5 pb-10  '>
         <form className='border rounded-2xl  w-full bg-[#DDDDDD] drop-shadow-sm py-2 mx-2 flex items-center'>
@@ -156,23 +146,31 @@ textShadow: "3px 5px 4px rgba(38, 38, 38, 0.58)"}}>{name}</h3>
         </div>
       </aside>
       {/*Hotels*/}
-      <section className=' w-full bg-white m-7'>
-        <Suspense fallback={<Loader/>} >
-        <>
-        <h1>{page}</h1>
+      <section className=' w-full justify-between bg-white m-7 flex flex-col'>
+          
+          { hotels.length === 0 ? 
+          <div className='flex flex-wrap gap-6'>
+            <EmptyHotels/>
+          </div>
+
+          :
+          <>
           <div className='flex flex-wrap gap-6'>{
             hotels.map((hotel) => (
-              <HotelBox key={hotel.id} id={hotel.id}  name={hotel.name} location={hotel.location} stars={hotel.stars} image={hotel.image} />
+              <HotelPageBox key={hotel.id}  id={hotel.id}  name={hotel.name} location={hotel.location} stars={hotel.stars} image={hotel.image} />
             ))
           }
-
-          </div>
-          <Pagination count={maxPages} className='mx-[25%] mt-5' page={page} onChange={handlePageChange} />
-          </>
-          </Suspense>
         
+          </div>
+          
+          <Pagination  count={maxPages} className='mx-[25%] mt-5' page={page} onChange={handlePageChange} />
+          </>
+        }
+          
+
 
       </section>
     </main>
+    </Suspense>
   )
 }

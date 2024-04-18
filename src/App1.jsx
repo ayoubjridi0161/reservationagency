@@ -5,7 +5,7 @@ import Home from './Pages/Home';
 //import HotelBox from './components/HotelBox';
 import SearchResult from './Pages/SearchResult';
 import { QueryClient, QueryClientProvider} from 'react-query'
-
+import Contact from './Pages/Contact';
 import { HotelsPage } from './Pages/HotelsPage';
 import {
     createBrowserRouter,
@@ -28,7 +28,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Layout />,
         children : [
-           
+            {
+                path : "contact",
+                element : <Contact />
+            },
             {
                 path : "hotels/search/:keyword",
                 element : <SearchResult />

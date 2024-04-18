@@ -10,21 +10,26 @@ import { SlScreenSmartphone } from "react-icons/sl";
 import { IoPersonOutline } from "react-icons/io5";
 import {useParams} from 'react-router-dom';
 import FormLabel from '@mui/material/FormLabel';
-import { getHotelDetails } from '../utils/apifolder2';
+import { getHotelDetails,getHotelsTN } from '../utils/apifolder2';
 import hotelImage from '../assets/image.png';
 import { IoLocationOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 
+
 import { renderStars } from '../utils/renderStarts';
 
 const Pay = () => {
+
+    
     const {id} = useParams();
-    console.log(id) 
     const [hotel,setHotel] = useState({})
     useEffect(() => {
+        const fetchOthers = async()=>{
+            const data = await getHotelsTN()
+            console.log("R:",data)
+        }
         const fetchData = async ()=>{
             const data = await getHotelDetails(id);
-            console.log(data)
             setHotel({
                 name : data.name,
                 image: data.images[0],
@@ -33,6 +38,7 @@ const Pay = () => {
             })
         }
         fetchData()
+        fetchOthers()
     },[]);
     
     const [selection,setSelection] = React.useState({

@@ -23,7 +23,7 @@ export const HotelDetails = () => {
     }, [])
     
     console.log('suggested',suggested)
-    const {isLoading , error , data} = useQuery('hotelDetails',async () => await getHotelDetails(id));
+    const {isLoading , isError , data} = useQuery('hotelDetails',async () => await getHotelDetails(id));
     
 
     function RenderImages({images}){
@@ -72,28 +72,28 @@ export const HotelDetails = () => {
     if (isLoading) return <div className='h-screen w-screen grid place-items-center'><Loader/></div>
 
   return (  
-    <main className='pb-6'>
-        <div className='min-h-36'></div> 
+    
+    <main className='pb-6 pt-36'>
         <section className='mx-auto    p-5 flex flex-col  w-4/5 min-h-2/3 bg-slate-200 shadow-lg shadow-slate-400 border rounded-lg' >
         <h2 className='px-4 flex gap-4'>
-            <p className='text-[28px] font-halant   ' style={{textShadow : "1px 1px 2px black"}}>{data.name}</p> 
-            <span className='items-center flex '>{renderStars(data.starRating)}</span>
+            <p className='text-[28px] font-halant   ' style={{textShadow : "1px 1px 2px black"}}>{data?.name}</p> 
+            <span className='items-center flex '>{renderStars(data?.starRating)}</span>
         </h2>
         <div className='px-6 flex items-center gap-2 text-xl'><IoLocationOutline />
-        <p className='text-[#4C4C4C] font-halant text-[20px]'>{data.location}</p>
+        <p className='text-[#4C4C4C] font-halant text-[20px]'>{data?.location}</p>
         </div>
         <div className='flex gap-4 '>
-            <RenderImages images={data.images}/>
+             <RenderImages images={data?.images}/>
             <div className='w-1/2 flex flex-col gap-4'> 
             
                 <div className='pt-3'>
                 <h3 className='font-semibold font-sans text-[18px]' >about the hotel : </h3>
-                <p className='text-wrap text-[#4A4A4A] font-kota text-[17px]'>{data.description}</p>
+                <p className='text-wrap text-[#4A4A4A] font-kota text-[17px]'>{data?.description}</p>
                 </div>          
                 <div>
                 <h3 className='font-semibold font-sans text-[18px]' >services:</h3>
                 <div className='mt-3 flex flex-wrap gap-3 text-[16px] '>
-                {renderservices(data.services)} 
+                {renderservices(data?.services)} 
                 <button onClick={()=>{setFullServices(false)}}  className='underline font-bold text-[17px] font-kota text-[#4A4A4A]' ><a href="#fullServices">see more...</a></button>
                 </div>
                 </div>
