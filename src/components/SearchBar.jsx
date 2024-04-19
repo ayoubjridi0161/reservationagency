@@ -10,7 +10,7 @@ const SearchBar = () => {
   const SubmitSearch = (event) => {
     event.preventDefault();
     console.log(query)
-    navigate(`/hotels/?keyword=${query}`)
+    navigate(`/search/${query}`)
     
 
   }

@@ -207,7 +207,6 @@ export const getHotelsForHomePage = async () => {
         stars: hotel.star
       }
     })
-    console.log(hotels)
     return hotels;
   }catch(err){
     console.error(err);

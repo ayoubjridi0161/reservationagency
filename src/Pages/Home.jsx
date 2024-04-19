@@ -9,23 +9,26 @@ import image3 from '../assets/centreDappel.jpg'
 import HotelBox from '../components/HotelBox'
 import Footer from '../components/Footer'
 import { NavCard } from '../components/NavCard'
-import axios from 'axios'
-import { getHotels , getHotel } from '../utils/apiFolder'
+//import { getHomePageHotels } from '../utils/apiFunctions'
 import { getHotelsForHomePage } from '../utils/apifolder2'
+import { getHomePageHotels } from '../utils/apiFunctions'
 //https://65d64740f6967ba8e3bdd970.mockapi.io/api/hotel/hotels
 const Home = () => {
   const [hotels, setHotels] = React.useState([])
   const [isLoading, setIsLoading] = React.useState(true)
   useEffect(() => {
     async function fetchData() {
-      const data = await getHotelsForHomePage();
+      const data = await getHomePageHotels();
+      console.log("data is "+ data)
       setHotels(data)
+
+      //const data = await getHotelsForHomePage();
+      //setHotels(data)
     }
 
     fetchData()
     setIsLoading(false)
   }, [])
-  console.log(hotels)
 
   
   return (
